@@ -4,7 +4,7 @@ class Task {
   constructor({
     id = new BSON.ObjectId(),
     description,
-    newDescription,
+    newDescription, // Novo campo
     isComplete = false,
   }) {
     this._id = id;
